@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b26721f731.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Контент страницы -->
+    <button type="button" class="btn btn-primary" data-toggle="popover" title="Сообщение"
+        data-content="Ура, Bootstrap 4 работает">Поднеси ко мне курсор</button>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Вместо подключения Popper JS и Bootstrap JS можно просто подключить Bootstrap Bundle JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover({
+                trigger: 'hover'
+            });
+        });
+    </script>
+</body>
+
+</html>
