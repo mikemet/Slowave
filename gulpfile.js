@@ -15,5 +15,11 @@ function htmlTask(cb) {
         .pipe(dest('public/'));
 }
 
+function jsTask(cb) {
+    return src('src/js/*.js')
+        .pipe(dest('public/js'));
+}
+
 exports.default = defaultTask;
 exports.html = htmlTask;
+exports.js = jsTask;
