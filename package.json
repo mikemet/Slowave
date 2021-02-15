@@ -1,0 +1,25 @@
+{
+  "name": "slowave",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemet/Slowave.git"
+  },
+  "keywords": [
+    "landing"
+  ],
+  "author": "mikemet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikemet/Slowave/issues"
+  },
+  "homepage": "https://github.com/mikemet/Slowave#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
