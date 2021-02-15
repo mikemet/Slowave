@@ -1,0 +1,33 @@
+@font-face {
+    src: url('/fonts/Raleway-Medium.ttf');
+    font-family: Raleway-Medium;
+}
+
+@font-face {
+    src: url('/fonts/Raleway-SemiBold.ttf');
+    font-family: Raleway-SemiBold;
+}
+
+/* ============================================================================= */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Raleway-Medium, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    overflow-wrap: break-word;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
