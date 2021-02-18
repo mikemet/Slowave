@@ -1,5 +1,5 @@
 @font-face {
-    src: url('/fonts/Raleway-Medium.ttf');
+    src: url('/fonts/Raleway-Regular.ttf');
     font-family: Raleway-Medium;
 }
 
@@ -22,7 +22,7 @@
 }
 
 body {
-    font-family: Raleway-Medium, Verdana, Tahoma, sans-serif;
+    font-family: Raleway-Regular, Verdana, Tahoma, sans-serif;
     font-size: 16px;
     line-height: normal;
     overflow-wrap: break-word;
