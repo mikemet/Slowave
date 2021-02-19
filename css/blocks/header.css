@@ -5,23 +5,20 @@
 
 .header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0.5rem 0;
     background-color: #313b46;
     width: 100%;
 }
 
-.main-menu {
-    justify-content: right;
-    width: 100%;
-    font-family: Raleway-SemiBold;
-    font-size: 0.813em;
-}
-
 .navbar-collapse {}
 
-.main-menu a {
+.navbar-nav a {
     color: #ffffff;
+}
+
+.navbar-nav a:hover {
+    color: var(--linkColorHover);
 }
 
 .header-content {
@@ -34,11 +31,13 @@
 
 .header-content h3 {
     font-family: Raleway-Medium;
+    font-size: var(--h3-font-size);
 }
 
 .header-content h4 {
     font-family: Raleway-Light;
     margin-bottom: 3rem;
+    font-size: var(--h4-font-size);
 }
 
 .btn-portfolio {
