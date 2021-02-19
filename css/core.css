@@ -8,6 +8,24 @@
     font-family: Raleway-SemiBold;
 }
 
+@font-face {
+    src: url('/fonts/Raleway-Light.ttf');
+    font-family: Raleway-Light;
+}
+
+@font-face {
+    src: url('/fonts/Raleway-Medium.ttf');
+    font-family: Raleway-Medium;
+}
+
+h3 {
+    font-size: 2.188em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
 /* ============================================================================= */
 * {
     margin: 0;
@@ -30,4 +48,5 @@ body {
 
 :root {
     scroll-behavior: smooth;
+
 }

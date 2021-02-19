@@ -1,0 +1,54 @@
+.header {
+    color: #ffffff;
+    /* outline: 1px solid brown; */
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    background-color: #313b46;
+    width: 100%;
+}
+
+.main-menu {
+    justify-content: right;
+    width: 100%;
+    font-family: Raleway-SemiBold;
+    font-size: 0.813em;
+}
+
+.navbar-collapse {}
+
+.main-menu a {
+    color: #ffffff;
+}
+
+.header-content {
+    background-image: url('/images/header_img.jpeg');
+    text-align: center;
+    width: 100%;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.header-content h3 {
+    font-family: Raleway-Medium;
+}
+
+.header-content h4 {
+    font-family: Raleway-Light;
+    margin-bottom: 3rem;
+}
+
+.btn-portfolio {
+    font-size: 0.813em;
+    font-family: Raleway-Medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #3f8dbf;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+}
