@@ -1,6 +1,5 @@
 .header {
     color: #ffffff;
-    /* outline: 1px solid brown; */
 }
 
 .header-top {
@@ -10,8 +9,6 @@
     background-color: #313b46;
     width: 100%;
 }
-
-.navbar-collapse {}
 
 .navbar-nav a {
     color: #ffffff;
